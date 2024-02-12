@@ -1,0 +1,28 @@
+body{
+    height: 1000px;
+    background: rgb(98,14,160);
+background: linear-gradient(135deg, rgba(98,14,160,1) 0%, rgba(54,5,89,1) 32%, rgba(20,35,94,1) 66%, rgba(0,10,50,1) 100%);
+}
+div{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+button{
+    display: block;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    border: rgba(153, 50, 205, 0.2) solid 10px;
+    background-color: blueviolet;
+
+}
+#display{
+    flex-basis: 100%;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial;
+    color: #39FF14;
+}
